@@ -6,6 +6,8 @@ def hello_t (arr)
   i+=1 
 end
 arr
+else
+  puts ""
 end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
